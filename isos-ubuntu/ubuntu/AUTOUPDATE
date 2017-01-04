@@ -1,0 +1,3 @@
+VERSION_URL=https://www.ubuntu.com/download/desktop
+FILE=desktop
+WEBVERSION=$(grepgrep -m 1 "abbr title=\"long-term support" desktop| sed -e "s/<h2>Ubuntu //g"|sed -e "s/<abbr title=\"long-term support\">LTS<\/abbr><\/h2>//g"

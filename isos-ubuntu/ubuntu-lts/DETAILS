@@ -1,0 +1,19 @@
+           SPELL=ubuntu-lts
+         VERSION=16.04.1
+	VERSION2=desktop
+	VERSION3=amd64
+          SOURCE=ubuntu-$VERSION-$VERSION2-$VERSION3.iso
+#         SOURCE2=${SOURCE}.sig
+SOURCE_DIRECTORY="$BUILD_DIRECTORY/$SPELL"
+   SOURCE_URL[0]=http://mirror.pnl.gov/releases/$VERSION/$SOURCE
+#  SOURCE2_URL[0]
+#      SOURCE_GPG="gurus.gpg:${SOURCE2}:ESTABLISHED_UPSTREAM_KEY"
+        WEB_SITE=http://www.ubuntu.org/
+     GATHER_DOCS=off
+         ENTERED=20161227
+      LICENSE[0]=GPL
+        KEYWORDS="ubuntu iso"
+           SHORT="Ubuntu iso download"
+cat << EOF
+Ubuntu Desktop LIVE install iso
+EOF

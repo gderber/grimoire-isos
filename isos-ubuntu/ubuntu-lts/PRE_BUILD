@@ -1,0 +1,3 @@
+mkdir $SOURCE_DIRECTORY &&
+cd $SOURCE_DIRECTORY &&
+mv /var/spool/sorcery/$SOURCE ${SOURCE_DIRECTORY}/

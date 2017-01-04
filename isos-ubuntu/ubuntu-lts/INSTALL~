@@ -1,0 +1,2 @@
+mkdir -p $INSTALL_ROOT/media/geoff/MULTIBOOT/boot-isos &&
+cp -Rv "$SOURCE_DIRECTORY"/*.iso "$INSTALL_ROOT"/media/geoff/MULTIBOOT/boot-isos
